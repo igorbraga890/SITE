@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ganhe Prêmios</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <center>
+    <h1>Siga a nossa página e ganhe prêmios</h1>
+    <h3>Clique abaixo e ganhe o seu prêmio</h3>
+    <a href="https://hipercapmogi.com.br/"><img class="img" style="border-radius: 5%;" src="img/images.jpg" alt=""></a><br><br>
+    <input type="button" value="clique aqui" onclick="apertar()" class="botao"><br><br>
+
+
+    <a href="https://www.telesena.com.br/"><img class="img" style="border-radius: 5%;" src="img/Logo_telesena.jpg" alt=""></a><br><br>
+    <input type="button" value="clique aqui" onclick="apertar()" class="botao"><br><br>
+
+    <a href="https://www.caixa.gov.br/Paginas/mega-da-virada.aspx"><img class="img" style="border-radius: 5%;" src="img/mega-da-virada-848x477.jpg" alt=""></a><br><br>
+    <input type="button" value="clique aqui" onclick="apertar()" class="botao"><br><br>
+
+    <h3>se voce chegou aqui tu é novo então toma</h3><br><br>
+    
+    <a href="https://jogodotigre.com/"><img class="img" style="border-radius: 5%;" src="img/tigrinho.jpg" alt=""></a><br><br>
+    <input type="button" value="clique aqui" onclick="apertar()" class="botao"><br><br>
+    
+    </center>
+
+    <script>
+        //javascript
+        
+        function apertar(){
+            Math.random(10)
+            
+            
+            
+            if(Math.random <= 1){
+                Swal.fire({
+                    title: "deu azar pai",
+                    text: "slk mó bréki",
+                    icon: "warning"
+                  });
+            }else{
+            
+            Swal.fire({
+                title: "boa e boa veinho deu sorte em",
+                text: "você ganhou uma viagem para fernando de noronha",
+                icon: "info"
+               
+              });
+            }
+        }
+        
+    </script>
+</body>
+</html>
